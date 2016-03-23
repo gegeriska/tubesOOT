@@ -36,8 +36,5 @@ public class AdminController {
    public String getAdminID(){
       return model.getId_admin();
    }
-   
-   public void updateView(){				
-      view.printAdmin(model.getId_admin(), model.getNama());      
-   }
+    
 }

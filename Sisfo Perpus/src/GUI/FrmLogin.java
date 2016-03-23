@@ -5,6 +5,7 @@
  */
 package GUI;
 
+import view.AdminView;
 import javax.swing.JOptionPane;
 
 /**
@@ -12,18 +13,18 @@ import javax.swing.JOptionPane;
  * @author ASUS
  */
 public class FrmLogin extends javax.swing.JFrame {
-    FrmAdmin admin;
+    AdminView admin;
     FrmLogin Login;
     
     
     
     /**
-     * Creates new form FrmAdmin
+     * Creates new form AdminView
      */
     public FrmLogin() {
         initComponents();
         Login = new FrmLogin();
-        admin = new FrmAdmin();
+        admin = new AdminView();
     }
 
     /**
