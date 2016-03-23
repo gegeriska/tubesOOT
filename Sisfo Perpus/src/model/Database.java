@@ -10,5 +10,5 @@ package model;
  * @author ASUS
  */
 public class Database {
-    
+    private int a=0;
 }
